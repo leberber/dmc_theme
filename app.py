@@ -53,7 +53,7 @@ app.layout = dmc.MantineProvider(
             children = [
                 dmc.AppShellHeader(header),
                 dmc.AppShellNavbar(dmc.Box(dmc.Badge("Side Bar")), withBorder=False),
-                dmc.AppShellMain([], p=20),
+                dmc.AppShellMain(components_list, p=20),
                 dmc.AppShellFooter(dmc.Badge("Footer"), withBorder=False),
                 dmc.AppShellAside(dmc.Center(dmc.Badge("Aside")),  withBorder=False),
             ]
