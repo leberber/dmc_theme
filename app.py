@@ -42,7 +42,7 @@ header = dmc.Group(
 
 
 app = Dash(external_stylesheets=stylesheets)
-
+server = app.server
 
 app.layout = dmc.MantineProvider(
     id="mantine-provider",
